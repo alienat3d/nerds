@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'reset';
+@import 'fonts';
+
+// BEM blocks
+
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: $font-family-basic;
+  font-weight: 400;
+  font-size: $size-text-main;
+  line-height: $lh-text-main;
+  color: $color-text-main;
+}
+// -| Sticky Footer |-
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
